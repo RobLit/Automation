@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 
 def test_setup():
     global driver
-    driver = webdriver.Edge(executable_path="F:/GitHub/testing/drivers/msedgedriver.exe")
+    driver = webdriver.Edge(executable_path="GitTest/drivers/msedgedriver.exe")
     global list
     list = ["Basic", "Snug", "Base Layer", "Compression", "Capri", "Leggings", "Sweatpants", "Track Pants", "Parachute"]
     global list1
