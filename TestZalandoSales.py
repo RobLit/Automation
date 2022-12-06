@@ -39,3 +39,6 @@ def test_oneZalandoSales():
             driver.get("https://www.zalando.pl/okazje/?sale=true&p=%d" %n)
         except:
             driver.close()
+
+def test_teardown():
+    driver.__exit__()
