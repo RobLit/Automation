@@ -34,11 +34,11 @@ def test_oneZalandoSales():
             if PERCENT != SALEPERCENT2:
                 AssertionError("There is problem with"+NAME)
             else:
-                print("Testing done")
+                print("Testing done, test passed")
         try:
             driver.get("https://www.zalando.pl/okazje/?sale=true&p=%d" %n)
         except:
             driver.close()
 
 def test_teardown():
-    driver.__exit__()
+    driver.close()
