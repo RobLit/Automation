@@ -1,0 +1,13 @@
+1680782482313	geckodriver	INFO	Listening on 127.0.0.1:65496
+1680782485353	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65497" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Robert\\AppData\\Local\\Temp\\rust_mozprofilebEliNy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680782486066	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680782486072	Marionette	INFO	Listening on port 65510
+Read port: 65510
+WebDriver BiDi listening on ws://127.0.0.1:65497
+1680782486304	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Robert\\AppData\\Local\\Temp\\rust_mozprofilebEliNy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65497/devtools/browser/5bda071d-7d0f-409b-ba3a-fdc5c6aa75c6
+JavaScript error: http://localhost:8080/dist/development/chunks/app/apps_realworld_app_mjs.js, line 246: TypeError: Neo.Xhr is undefined

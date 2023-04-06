@@ -1,0 +1,1437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20230406 13:58:01.712" rpa="false" schemaversion="3">
+<suite id="s1" name="firefoxDev" source="E:\PythonProjects\Nowy folder\robot\firefoxDev.robot">
+<test id="s1-t1" name="RunBrowser1" line="22">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser3}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 13:58:02.294" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/'.</msg>
+<msg timestamp="20230406 13:58:02.297" level="INFO">Firefox driver log is always forced to to: E:\PythonProjects\Nowy folder\log\geckodriver-1.log</msg>
+<status status="PASS" starttime="20230406 13:58:02.293" endtime="20230406 13:58:10.379"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="content"]/ul[1]/li/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230406 13:58:10.381" level="INFO">Clicking element 'xpath://*[@id="content"]/ul[1]/li/a'.</msg>
+<status status="PASS" starttime="20230406 13:58:10.380" endtime="20230406 13:58:10.439"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>title=Conduit</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" starttime="20230406 13:58:10.439" endtime="20230406 13:58:10.690"/>
+</kw>
+<kw name="Location Should Be" library="SeleniumLibrary">
+<arg>${url1}</arg>
+<doc>Verifies that the current URL is exactly ``url``.</doc>
+<msg timestamp="20230406 13:58:10.697" level="INFO">Current location is 'http://localhost:8080/apps/realworld/index.html'.</msg>
+<status status="PASS" starttime="20230406 13:58:10.691" endtime="20230406 13:58:10.698"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Close Window</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<kw name="Close Window" library="SeleniumLibrary">
+<doc>Closes currently opened and selected browser window/tab.</doc>
+<status status="PASS" starttime="20230406 13:58:10.700" endtime="20230406 13:58:10.739"/>
+</kw>
+<status status="PASS" starttime="20230406 13:58:10.699" endtime="20230406 13:58:10.739"/>
+</kw>
+<status status="PASS" starttime="20230406 13:58:02.292" endtime="20230406 13:58:10.740"/>
+</test>
+<test id="s1-t2" name="RunBrowser2" line="29">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser3}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 13:58:10.742" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/'.</msg>
+<msg timestamp="20230406 13:58:10.744" level="INFO">Firefox driver log is always forced to to: E:\PythonProjects\Nowy folder\log\geckodriver-2.log</msg>
+<status status="PASS" starttime="20230406 13:58:10.741" endtime="20230406 13:58:17.780"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="content"]/ul[2]/li[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230406 13:58:17.781" level="INFO">Clicking element 'xpath://*[@id="content"]/ul[2]/li[1]/a'.</msg>
+<status status="PASS" starttime="20230406 13:58:17.780" endtime="20230406 13:58:17.852"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>title=Conduit</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" starttime="20230406 13:58:17.852" endtime="20230406 13:58:18.089"/>
+</kw>
+<kw name="Location Should Be" library="SeleniumLibrary">
+<arg>${url2}</arg>
+<doc>Verifies that the current URL is exactly ``url``.</doc>
+<msg timestamp="20230406 13:58:18.096" level="INFO">Current location is 'http://localhost:8080/dist/development/apps/realworld/index.html'.</msg>
+<status status="PASS" starttime="20230406 13:58:18.089" endtime="20230406 13:58:18.096"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Close Window</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<kw name="Close Window" library="SeleniumLibrary">
+<doc>Closes currently opened and selected browser window/tab.</doc>
+<status status="PASS" starttime="20230406 13:58:18.098" endtime="20230406 13:58:18.143"/>
+</kw>
+<status status="PASS" starttime="20230406 13:58:18.097" endtime="20230406 13:58:18.143"/>
+</kw>
+<status status="PASS" starttime="20230406 13:58:10.741" endtime="20230406 13:58:18.144"/>
+</test>
+<test id="s1-t3" name="RunBrowser3" line="36">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser3}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 13:58:18.145" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/'.</msg>
+<msg timestamp="20230406 13:58:18.147" level="INFO">Firefox driver log is always forced to to: E:\PythonProjects\Nowy folder\log\geckodriver-3.log</msg>
+<status status="PASS" starttime="20230406 13:58:18.145" endtime="20230406 13:58:25.970"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="content"]/ul[2]/li[2]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230406 13:58:25.971" level="INFO">Clicking element 'xpath://*[@id="content"]/ul[2]/li[2]/a'.</msg>
+<status status="PASS" starttime="20230406 13:58:25.970" endtime="20230406 13:58:26.022"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>title=Conduit</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" starttime="20230406 13:58:26.022" endtime="20230406 13:58:26.646"/>
+</kw>
+<kw name="Location Should Be" library="SeleniumLibrary">
+<arg>${url3}</arg>
+<doc>Verifies that the current URL is exactly ``url``.</doc>
+<msg timestamp="20230406 13:58:26.654" level="INFO">Current location is 'http://localhost:8080/dist/production/apps/realworld/index.html'.</msg>
+<status status="PASS" starttime="20230406 13:58:26.646" endtime="20230406 13:58:26.655"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Close Window</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<kw name="Close Window" library="SeleniumLibrary">
+<doc>Closes currently opened and selected browser window/tab.</doc>
+<status status="PASS" starttime="20230406 13:58:26.656" endtime="20230406 13:58:26.708"/>
+</kw>
+<status status="PASS" starttime="20230406 13:58:26.655" endtime="20230406 13:58:26.709"/>
+</kw>
+<status status="PASS" starttime="20230406 13:58:18.144" endtime="20230406 13:58:26.709"/>
+</test>
+<test id="s1-t4" name="RunBrowser4" line="43">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser3}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 13:58:26.711" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/'.</msg>
+<msg timestamp="20230406 13:58:26.715" level="INFO">Firefox driver log is always forced to to: E:\PythonProjects\Nowy folder\log\geckodriver-4.log</msg>
+<status status="PASS" starttime="20230406 13:58:26.710" endtime="20230406 13:58:34.455"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="content"]/ul[3]/li/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230406 13:58:34.456" level="INFO">Clicking element 'xpath://*[@id="content"]/ul[3]/li/a'.</msg>
+<status status="PASS" starttime="20230406 13:58:34.455" endtime="20230406 13:58:34.511"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>title=Neo Docs</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<msg timestamp="20230406 13:58:35.374" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230406 13:58:35.375" level="FAIL">Unable to locate window with title 'Neo Docs'.</msg>
+<status status="FAIL" starttime="20230406 13:58:34.511" endtime="20230406 13:58:35.387"/>
+</kw>
+<kw name="Location Should Be" library="SeleniumLibrary">
+<arg>${url4}</arg>
+<doc>Verifies that the current URL is exactly ``url``.</doc>
+<status status="NOT RUN" starttime="20230406 13:58:35.388" endtime="20230406 13:58:35.388"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Close Window</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="NOT RUN" starttime="20230406 13:58:35.388" endtime="20230406 13:58:35.388"/>
+</kw>
+<status status="FAIL" starttime="20230406 13:58:26.710" endtime="20230406 13:58:35.388">Unable to locate window with title 'Neo Docs'.</status>
+</test>
+<test id="s1-t5" name="RunBrowser5" line="50">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser3}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 13:58:35.390" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/'.</msg>
+<msg timestamp="20230406 13:58:35.392" level="INFO">Firefox driver log is always forced to to: E:\PythonProjects\Nowy folder\log\geckodriver-5.log</msg>
+<status status="PASS" starttime="20230406 13:58:35.390" endtime="20230406 13:58:43.623"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="content"]/ul[4]/li/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230406 13:58:43.624" level="INFO">Clicking element 'xpath://*[@id="content"]/ul[4]/li/a'.</msg>
+<status status="PASS" starttime="20230406 13:58:43.624" endtime="20230406 13:58:43.694"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>title=Neo test suite</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<msg timestamp="20230406 13:58:44.143" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230406 13:58:44.144" level="FAIL">Unable to locate window with title 'Neo test suite'.</msg>
+<status status="FAIL" starttime="20230406 13:58:43.694" endtime="20230406 13:58:44.145"/>
+</kw>
+<kw name="Location Should Be" library="SeleniumLibrary">
+<arg>${url5}</arg>
+<doc>Verifies that the current URL is exactly ``url``.</doc>
+<status status="NOT RUN" starttime="20230406 13:58:44.146" endtime="20230406 13:58:44.146"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Close Window</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="NOT RUN" starttime="20230406 13:58:44.146" endtime="20230406 13:58:44.146"/>
+</kw>
+<status status="FAIL" starttime="20230406 13:58:35.389" endtime="20230406 13:58:44.146">Unable to locate window with title 'Neo test suite'.</status>
+</test>
+<test id="s1-t6" name="RunBrowser6" line="57">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser3}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 13:58:44.149" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/'.</msg>
+<msg timestamp="20230406 13:58:44.151" level="INFO">Firefox driver log is always forced to to: E:\PythonProjects\Nowy folder\log\geckodriver-6.log</msg>
+<status status="PASS" starttime="20230406 13:58:44.148" endtime="20230406 13:58:50.544"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="content"]/ul[5]/li/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230406 13:58:50.545" level="INFO">Clicking element 'xpath://*[@id="content"]/ul[5]/li/a'.</msg>
+<status status="PASS" starttime="20230406 13:58:50.544" endtime="20230406 13:58:50.598"/>
+</kw>
+<kw name="Switch Window" library="SeleniumLibrary">
+<arg>title=neo.mjs - Website</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<msg timestamp="20230406 13:58:50.902" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230406 13:58:50.903" level="FAIL">Unable to locate window with title 'neo.mjs - Website'.</msg>
+<status status="FAIL" starttime="20230406 13:58:50.598" endtime="20230406 13:58:50.905"/>
+</kw>
+<kw name="Location Should Be" library="SeleniumLibrary">
+<arg>${url6}</arg>
+<doc>Verifies that the current URL is exactly ``url``.</doc>
+<status status="NOT RUN" starttime="20230406 13:58:50.905" endtime="20230406 13:58:50.905"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Close Window</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="NOT RUN" starttime="20230406 13:58:50.906" endtime="20230406 13:58:50.906"/>
+</kw>
+<status status="FAIL" starttime="20230406 13:58:44.147" endtime="20230406 13:58:50.906">Unable to locate window with title 'neo.mjs - Website'.</status>
+</test>
+<test id="s1-t7" name="SignUpSession" line="64">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url2}</arg>
+<arg>${browser3}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 13:58:50.909" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/dist/development/apps/realworld/index.html'.</msg>
+<msg timestamp="20230406 13:58:50.911" level="INFO">Firefox driver log is always forced to to: E:\PythonProjects\Nowy folder\log\geckodriver-7.log</msg>
+<status status="PASS" starttime="20230406 13:58:50.908" endtime="20230406 13:58:56.929"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-6</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 13:58:56.929" endtime="20230406 13:58:57.368"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-6</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230406 13:58:57.369" level="INFO">Clicking element 'id:neo-vnode-6'.</msg>
+<status status="PASS" starttime="20230406 13:58:57.368" endtime="20230406 13:58:57.440"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>name:email</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 13:58:57.440" endtime="20230406 13:58:57.864"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:username</arg>
+<arg>TestSession</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230406 13:58:57.868" level="INFO">Sending key(s) ('TestSession',) to name:username element.</msg>
+<msg timestamp="20230406 13:58:58.168" level="INFO">Sending keys TestSession</msg>
+<status status="PASS" starttime="20230406 13:58:57.865" endtime="20230406 13:58:58.212"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:email</arg>
+<arg>${email}</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230406 13:58:58.213" level="INFO">Sending key(s) ('qw23@foo.bar',) to name:email element.</msg>
+<msg timestamp="20230406 13:58:58.504" level="INFO">Sending keys qw23@foo.bar</msg>
+<status status="PASS" starttime="20230406 13:58:58.212" endtime="20230406 13:58:58.532"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:password</arg>
+<arg>${password}</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230406 13:58:58.533" level="INFO">Sending key(s) ('password',) to name:password element.</msg>
+<msg timestamp="20230406 13:58:58.823" level="INFO">Sending keys password</msg>
+<status status="PASS" starttime="20230406 13:58:58.532" endtime="20230406 13:58:58.842"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>class:btn-primary</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20230406 13:58:58.899" level="INFO">Clicking button 'class:btn-primary'.</msg>
+<status status="PASS" starttime="20230406 13:58:58.842" endtime="20230406 13:58:59.127"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>class:user-pic</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<msg timestamp="20230406 13:59:04.283" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-4.png"&gt;&lt;img src="selenium-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230406 13:59:04.283" level="FAIL">Element 'class:user-pic' did not appear in 5 seconds.</msg>
+<status status="FAIL" starttime="20230406 13:58:59.127" endtime="20230406 13:59:04.302"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Close Window</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:04.302" endtime="20230406 13:59:04.303"/>
+</kw>
+<status status="FAIL" starttime="20230406 13:58:50.907" endtime="20230406 13:59:04.303">Element 'class:user-pic' did not appear in 5 seconds.</status>
+</test>
+<test id="s1-t8" name="SignInGen" line="76">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url2}</arg>
+<arg>${browser3}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 13:59:04.304" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/dist/development/apps/realworld/index.html'.</msg>
+<msg timestamp="20230406 13:59:04.307" level="INFO">Firefox driver log is always forced to to: E:\PythonProjects\Nowy folder\log\geckodriver-8.log</msg>
+<status status="PASS" starttime="20230406 13:59:04.304" endtime="20230406 13:59:13.923"/>
+</kw>
+<kw name="SignInGen" library="keywords">
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-6</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 13:59:13.926" endtime="20230406 13:59:16.957"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-6</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230406 13:59:16.958" level="INFO">Clicking element 'id:neo-vnode-6'.</msg>
+<status status="PASS" starttime="20230406 13:59:16.957" endtime="20230406 13:59:17.010"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>name:email</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 13:59:17.010" endtime="20230406 13:59:17.307"/>
+</kw>
+<kw name="Name Gen" library="data_generator">
+<var>${random_username}</var>
+<msg timestamp="20230406 13:59:17.309" level="INFO">${random_username} = covwjnxpudcubuhqsxpl</msg>
+<status status="PASS" starttime="20230406 13:59:17.308" endtime="20230406 13:59:17.309"/>
+</kw>
+<kw name="Email Gen" library="data_generator">
+<var>${random_email}</var>
+<msg timestamp="20230406 13:59:17.309" level="INFO">${random_email} = pq57zsr0b5xa@hxdjslrdgn.fhtor</msg>
+<status status="PASS" starttime="20230406 13:59:17.309" endtime="20230406 13:59:17.309"/>
+</kw>
+<kw name="Password Gen" library="data_generator">
+<var>${random_password}</var>
+<msg timestamp="20230406 13:59:17.310" level="INFO">${random_password} = mhnrptlddy80vs0zkh</msg>
+<status status="PASS" starttime="20230406 13:59:17.309" endtime="20230406 13:59:17.310"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:username</arg>
+<arg>${random_username}</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230406 13:59:17.311" level="INFO">Sending key(s) ('covwjnxpudcubuhqsxpl',) to name:username element.</msg>
+<msg timestamp="20230406 13:59:20.188" level="INFO">Sending keys covwjnxpudcubuhqsxpl</msg>
+<status status="PASS" starttime="20230406 13:59:17.310" endtime="20230406 13:59:20.266"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:email</arg>
+<arg>${random_email}</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230406 13:59:20.267" level="INFO">Sending key(s) ('pq57zsr0b5xa@hxdjslrdgn.fhtor',) to name:email element.</msg>
+<msg timestamp="20230406 13:59:20.543" level="INFO">Sending keys pq57zsr0b5xa@hxdjslrdgn.fhtor</msg>
+<status status="PASS" starttime="20230406 13:59:20.266" endtime="20230406 13:59:20.627"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:password</arg>
+<arg>${random_password}</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230406 13:59:20.628" level="INFO">Sending key(s) ('mhnrptlddy80vs0zkh',) to name:password element.</msg>
+<msg timestamp="20230406 13:59:20.988" level="INFO">Sending keys mhnrptlddy80vs0zkh</msg>
+<status status="PASS" starttime="20230406 13:59:20.627" endtime="20230406 13:59:21.017"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>class:btn-primary</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20230406 13:59:21.017" level="INFO">Clicking button 'class:btn-primary'.</msg>
+<status status="PASS" starttime="20230406 13:59:21.017" endtime="20230406 13:59:21.246"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230406 13:59:23.247" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230406 13:59:21.247" endtime="20230406 13:59:23.248"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${check_name}</var>
+<arg>id:neo-vnode-47</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20230406 13:59:23.291" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-5.png"&gt;&lt;img src="selenium-screenshot-5.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230406 13:59:23.292" level="FAIL">Element with locator 'id:neo-vnode-47' not found.</msg>
+<status status="FAIL" starttime="20230406 13:59:23.248" endtime="20230406 13:59:24.038"/>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<arg>${check_name.strip()}</arg>
+<arg>${random_username.strip()}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:24.038" endtime="20230406 13:59:24.038"/>
+</kw>
+<status status="FAIL" starttime="20230406 13:59:13.925" endtime="20230406 13:59:24.040"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Close Window</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:24.040" endtime="20230406 13:59:24.041"/>
+</kw>
+<status status="FAIL" starttime="20230406 13:59:04.303" endtime="20230406 13:59:24.041">Element with locator 'id:neo-vnode-47' not found.</status>
+</test>
+<test id="s1-t9" name="Log_out" line="81">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url2}</arg>
+<arg>${browser3}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 13:59:24.043" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/dist/development/apps/realworld/index.html'.</msg>
+<msg timestamp="20230406 13:59:24.045" level="INFO">Firefox driver log is always forced to to: E:\PythonProjects\Nowy folder\log\geckodriver-9.log</msg>
+<status status="PASS" starttime="20230406 13:59:24.042" endtime="20230406 13:59:30.892"/>
+</kw>
+<kw name="SignInGen" library="keywords">
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-6</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 13:59:30.893" endtime="20230406 13:59:31.794"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-6</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230406 13:59:31.795" level="INFO">Clicking element 'id:neo-vnode-6'.</msg>
+<status status="PASS" starttime="20230406 13:59:31.795" endtime="20230406 13:59:31.847"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>name:email</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 13:59:31.847" endtime="20230406 13:59:32.059"/>
+</kw>
+<kw name="Name Gen" library="data_generator">
+<var>${random_username}</var>
+<msg timestamp="20230406 13:59:32.059" level="INFO">${random_username} = jpmyfjtcbbuqbnbzkxrg</msg>
+<status status="PASS" starttime="20230406 13:59:32.059" endtime="20230406 13:59:32.059"/>
+</kw>
+<kw name="Email Gen" library="data_generator">
+<var>${random_email}</var>
+<msg timestamp="20230406 13:59:32.060" level="INFO">${random_email} = 9dk47l8szr3k@zsoamhbalq.aohda</msg>
+<status status="PASS" starttime="20230406 13:59:32.060" endtime="20230406 13:59:32.060"/>
+</kw>
+<kw name="Password Gen" library="data_generator">
+<var>${random_password}</var>
+<msg timestamp="20230406 13:59:32.060" level="INFO">${random_password} = mah4jbiqzcegspfunl</msg>
+<status status="PASS" starttime="20230406 13:59:32.060" endtime="20230406 13:59:32.060"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:username</arg>
+<arg>${random_username}</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230406 13:59:32.061" level="INFO">Sending key(s) ('jpmyfjtcbbuqbnbzkxrg',) to name:username element.</msg>
+<msg timestamp="20230406 13:59:32.356" level="INFO">Sending keys jpmyfjtcbbuqbnbzkxrg</msg>
+<status status="PASS" starttime="20230406 13:59:32.060" endtime="20230406 13:59:32.402"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:email</arg>
+<arg>${random_email}</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230406 13:59:32.403" level="INFO">Sending key(s) ('9dk47l8szr3k@zsoamhbalq.aohda',) to name:email element.</msg>
+<msg timestamp="20230406 13:59:32.695" level="INFO">Sending keys 9dk47l8szr3k@zsoamhbalq.aohda</msg>
+<status status="PASS" starttime="20230406 13:59:32.402" endtime="20230406 13:59:32.748"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:password</arg>
+<arg>${random_password}</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230406 13:59:32.749" level="INFO">Sending key(s) ('mah4jbiqzcegspfunl',) to name:password element.</msg>
+<msg timestamp="20230406 13:59:33.034" level="INFO">Sending keys mah4jbiqzcegspfunl</msg>
+<status status="PASS" starttime="20230406 13:59:32.748" endtime="20230406 13:59:33.070"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>class:btn-primary</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20230406 13:59:33.071" level="INFO">Clicking button 'class:btn-primary'.</msg>
+<status status="PASS" starttime="20230406 13:59:33.071" endtime="20230406 13:59:33.305"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230406 13:59:35.306" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230406 13:59:33.306" endtime="20230406 13:59:35.306"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${check_name}</var>
+<arg>id:neo-vnode-47</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20230406 13:59:35.343" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-6.png"&gt;&lt;img src="selenium-screenshot-6.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230406 13:59:35.343" level="FAIL">Element with locator 'id:neo-vnode-47' not found.</msg>
+<status status="FAIL" starttime="20230406 13:59:35.307" endtime="20230406 13:59:35.345"/>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<arg>${check_name.strip()}</arg>
+<arg>${random_username.strip()}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:35.345" endtime="20230406 13:59:35.346"/>
+</kw>
+<status status="FAIL" starttime="20230406 13:59:30.892" endtime="20230406 13:59:35.346"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-233</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:35.346" endtime="20230406 13:59:35.346"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>id:neo-vnode-233</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:35.346" endtime="20230406 13:59:35.346"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>id:ne-vnode-324</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:35.347" endtime="20230406 13:59:35.347"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Close Window</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:35.347" endtime="20230406 13:59:35.347"/>
+</kw>
+<status status="FAIL" starttime="20230406 13:59:24.041" endtime="20230406 13:59:35.347">Element with locator 'id:neo-vnode-47' not found.</status>
+</test>
+<test id="s1-t10" name="Should_Title_Match" line="90">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url2}</arg>
+<arg>${browser3}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 13:59:35.349" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/dist/development/apps/realworld/index.html'.</msg>
+<msg timestamp="20230406 13:59:35.350" level="INFO">Firefox driver log is always forced to to: E:\PythonProjects\Nowy folder\log\geckodriver-10.log</msg>
+<status status="PASS" starttime="20230406 13:59:35.348" endtime="20230406 13:59:41.830"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-35</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 13:59:41.831" endtime="20230406 13:59:43.511"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${get_title1}</var>
+<arg>id:neo-vnode-35</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20230406 13:59:43.557" level="INFO">${get_title1} = If we quantify the alarm, we can get to the FTP pixel through the online SSL interface!</msg>
+<status status="PASS" starttime="20230406 13:59:43.512" endtime="20230406 13:59:43.558"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-35</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230406 13:59:43.558" level="INFO">Clicking element 'id:neo-vnode-35'.</msg>
+<status status="PASS" starttime="20230406 13:59:43.558" endtime="20230406 13:59:43.610"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${get_title2}</var>
+<arg>xpath://*[@id="neo-vnode-215"]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20230406 13:59:43.670" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-7.png"&gt;&lt;img src="selenium-screenshot-7.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230406 13:59:43.671" level="FAIL">Element with locator 'xpath://*[@id="neo-vnode-215"]' not found.</msg>
+<status status="FAIL" starttime="20230406 13:59:43.610" endtime="20230406 13:59:43.673"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${get_title2}</arg>
+<arg>${get_title1}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:43.676" endtime="20230406 13:59:43.677"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Close Window</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:43.677" endtime="20230406 13:59:43.677"/>
+</kw>
+<status status="FAIL" starttime="20230406 13:59:35.348" endtime="20230406 13:59:43.677">Element with locator 'xpath://*[@id="neo-vnode-215"]' not found.</status>
+</test>
+<test id="s1-t11" name="Rating_should_+1" line="100">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url2}</arg>
+<arg>${browser3}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 13:59:43.680" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/dist/development/apps/realworld/index.html'.</msg>
+<msg timestamp="20230406 13:59:43.682" level="INFO">Firefox driver log is always forced to to: E:\PythonProjects\Nowy folder\log\geckodriver-11.log</msg>
+<status status="PASS" starttime="20230406 13:59:43.679" endtime="20230406 13:59:50.297"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-20</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 13:59:50.298" endtime="20230406 13:59:50.736"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${RatingBefore}</var>
+<arg>id:neo-vnode-33</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20230406 13:59:50.777" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-8.png"&gt;&lt;img src="selenium-screenshot-8.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230406 13:59:50.777" level="FAIL">Element with locator 'id:neo-vnode-33' not found.</msg>
+<status status="FAIL" starttime="20230406 13:59:50.736" endtime="20230406 13:59:50.779"/>
+</kw>
+<kw name="Convert To Number" library="BuiltIn">
+<var>${RatingBefore}</var>
+<arg>${RatingBefore}</arg>
+<doc>Converts the given item to a floating point number.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:50.780" endtime="20230406 13:59:50.780"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-33</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:50.781" endtime="20230406 13:59:50.781"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${ratingAfter}</var>
+<arg>id:neo-vnode-33</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:50.782" endtime="20230406 13:59:50.782"/>
+</kw>
+<kw name="Convert To Number" library="BuiltIn">
+<var>${ratingAfter}</var>
+<arg>${ratingAfter}</arg>
+<doc>Converts the given item to a floating point number.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:50.782" endtime="20230406 13:59:50.782"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${ratingAfter}</arg>
+<arg>${RatingBefore+1}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:50.783" endtime="20230406 13:59:50.783"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-33</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:50.783" endtime="20230406 13:59:50.783"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Close Window</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:50.783" endtime="20230406 13:59:50.783"/>
+</kw>
+<status status="FAIL" starttime="20230406 13:59:43.678" endtime="20230406 13:59:50.784">Element with locator 'id:neo-vnode-33' not found.</status>
+</test>
+<test id="s1-t12" name="Rating_should_back" line="112">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url2}</arg>
+<arg>${browser3}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 13:59:50.786" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/dist/development/apps/realworld/index.html'.</msg>
+<msg timestamp="20230406 13:59:50.789" level="INFO">Firefox driver log is always forced to to: E:\PythonProjects\Nowy folder\log\geckodriver-12.log</msg>
+<status status="PASS" starttime="20230406 13:59:50.785" endtime="20230406 13:59:57.394"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-20</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 13:59:57.394" endtime="20230406 13:59:57.821"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${RatingBefore}</var>
+<arg>id:neo-vnode-33</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20230406 13:59:57.865" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-9.png"&gt;&lt;img src="selenium-screenshot-9.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230406 13:59:57.865" level="FAIL">Element with locator 'id:neo-vnode-33' not found.</msg>
+<status status="FAIL" starttime="20230406 13:59:57.822" endtime="20230406 13:59:57.867"/>
+</kw>
+<kw name="Convert To Number" library="BuiltIn">
+<var>${RatingBefore}</var>
+<arg>${RatingBefore}</arg>
+<doc>Converts the given item to a floating point number.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:57.867" endtime="20230406 13:59:57.867"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-33</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:57.867" endtime="20230406 13:59:57.867"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-33</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:57.868" endtime="20230406 13:59:57.868"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${ratingFinal}</var>
+<arg>id:neo-vnode-33</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:57.868" endtime="20230406 13:59:57.868"/>
+</kw>
+<kw name="Convert To Number" library="BuiltIn">
+<var>${ratingFinal}</var>
+<arg>${ratingFinal}</arg>
+<doc>Converts the given item to a floating point number.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:57.868" endtime="20230406 13:59:57.868"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${ratingFinal}</arg>
+<arg>${RatingBefore}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:57.869" endtime="20230406 13:59:57.869"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Close Window</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="NOT RUN" starttime="20230406 13:59:57.869" endtime="20230406 13:59:57.869"/>
+</kw>
+<status status="FAIL" starttime="20230406 13:59:50.785" endtime="20230406 13:59:57.869">Element with locator 'id:neo-vnode-33' not found.</status>
+</test>
+<test id="s1-t13" name="Tags_should_not_be_empty" line="124">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url2}</arg>
+<arg>${browser3}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 13:59:57.871" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/dist/development/apps/realworld/index.html'.</msg>
+<msg timestamp="20230406 13:59:57.874" level="INFO">Firefox driver log is always forced to to: E:\PythonProjects\Nowy folder\log\geckodriver-13.log</msg>
+<status status="PASS" starttime="20230406 13:59:57.870" endtime="20230406 14:00:06.949"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-20</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 14:00:06.949" endtime="20230406 14:00:07.596"/>
+</kw>
+<kw name="Should Not Be Empty" library="BuiltIn">
+<arg>class:tag-list</arg>
+<doc>Verifies that the given item is not empty.</doc>
+<msg timestamp="20230406 14:00:07.617" level="INFO">Length is 14</msg>
+<status status="PASS" starttime="20230406 14:00:07.608" endtime="20230406 14:00:07.618"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Close Window</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<kw name="Close Window" library="SeleniumLibrary">
+<doc>Closes currently opened and selected browser window/tab.</doc>
+<status status="PASS" starttime="20230406 14:00:07.619" endtime="20230406 14:00:08.974"/>
+</kw>
+<status status="PASS" starttime="20230406 14:00:07.618" endtime="20230406 14:00:08.974"/>
+</kw>
+<status status="PASS" starttime="20230406 13:59:57.870" endtime="20230406 14:00:08.974"/>
+</test>
+<test id="s1-t14" name="Article_title_on_a_list" line="130">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url2}</arg>
+<arg>${browser3}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 14:00:08.976" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/dist/development/apps/realworld/index.html'.</msg>
+<msg timestamp="20230406 14:00:08.978" level="INFO">Firefox driver log is always forced to to: E:\PythonProjects\Nowy folder\log\geckodriver-14.log</msg>
+<status status="PASS" starttime="20230406 14:00:08.976" endtime="20230406 14:00:15.556"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-20</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 14:00:15.557" endtime="20230406 14:00:15.989"/>
+</kw>
+<kw name="Should Not Be Empty" library="BuiltIn">
+<arg>id:neo-vnode-35</arg>
+<doc>Verifies that the given item is not empty.</doc>
+<msg timestamp="20230406 14:00:15.990" level="INFO">Length is 15</msg>
+<status status="PASS" starttime="20230406 14:00:15.990" endtime="20230406 14:00:15.993"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Close Window</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<kw name="Close Window" library="SeleniumLibrary">
+<doc>Closes currently opened and selected browser window/tab.</doc>
+<status status="PASS" starttime="20230406 14:00:15.993" endtime="20230406 14:00:16.715"/>
+</kw>
+<status status="PASS" starttime="20230406 14:00:15.993" endtime="20230406 14:00:16.715"/>
+</kw>
+<status status="PASS" starttime="20230406 14:00:08.975" endtime="20230406 14:00:16.715"/>
+</test>
+<test id="s1-t15" name="Article_description_on_a_list" line="136">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url2}</arg>
+<arg>${browser3}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 14:00:16.717" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/dist/development/apps/realworld/index.html'.</msg>
+<msg timestamp="20230406 14:00:16.719" level="INFO">Firefox driver log is always forced to to: E:\PythonProjects\Nowy folder\log\geckodriver-15.log</msg>
+<status status="PASS" starttime="20230406 14:00:16.716" endtime="20230406 14:00:22.557"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-20</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 14:00:22.557" endtime="20230406 14:00:22.989"/>
+</kw>
+<kw name="Should Not Be Empty" library="BuiltIn">
+<arg>id:neo-vnode-36</arg>
+<doc>Verifies that the given item is not empty.</doc>
+<msg timestamp="20230406 14:00:22.990" level="INFO">Length is 15</msg>
+<status status="PASS" starttime="20230406 14:00:22.989" endtime="20230406 14:00:22.990"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Close Window</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<kw name="Close Window" library="SeleniumLibrary">
+<doc>Closes currently opened and selected browser window/tab.</doc>
+<status status="PASS" starttime="20230406 14:00:22.990" endtime="20230406 14:00:23.685"/>
+</kw>
+<status status="PASS" starttime="20230406 14:00:22.990" endtime="20230406 14:00:23.686"/>
+</kw>
+<status status="PASS" starttime="20230406 14:00:16.716" endtime="20230406 14:00:23.686"/>
+</test>
+<test id="s1-t16" name="Article_author_on_a_list" line="142">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url2}</arg>
+<arg>${browser3}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 14:00:23.688" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/dist/development/apps/realworld/index.html'.</msg>
+<msg timestamp="20230406 14:00:23.693" level="INFO">Firefox driver log is always forced to to: E:\PythonProjects\Nowy folder\log\geckodriver-16.log</msg>
+<status status="PASS" starttime="20230406 14:00:23.687" endtime="20230406 14:00:29.750"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-20</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 14:00:29.751" endtime="20230406 14:00:30.188"/>
+</kw>
+<kw name="Should Not Be Empty" library="BuiltIn">
+<arg>id:neo-vnode-29</arg>
+<doc>Verifies that the given item is not empty.</doc>
+<msg timestamp="20230406 14:00:30.188" level="INFO">Length is 15</msg>
+<status status="PASS" starttime="20230406 14:00:30.188" endtime="20230406 14:00:30.188"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Close Window</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<kw name="Close Window" library="SeleniumLibrary">
+<doc>Closes currently opened and selected browser window/tab.</doc>
+<status status="PASS" starttime="20230406 14:00:30.189" endtime="20230406 14:00:30.938"/>
+</kw>
+<status status="PASS" starttime="20230406 14:00:30.189" endtime="20230406 14:00:30.938"/>
+</kw>
+<status status="PASS" starttime="20230406 14:00:23.686" endtime="20230406 14:00:30.938"/>
+</test>
+<test id="s1-t17" name="Article_tags_on_a_list" line="148">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url2}</arg>
+<arg>${browser3}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 14:00:30.941" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/dist/development/apps/realworld/index.html'.</msg>
+<msg timestamp="20230406 14:00:30.944" level="INFO">Firefox driver log is always forced to to: E:\PythonProjects\Nowy folder\log\geckodriver-17.log</msg>
+<status status="PASS" starttime="20230406 14:00:30.940" endtime="20230406 14:00:36.629"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-20</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 14:00:36.629" endtime="20230406 14:00:37.052"/>
+</kw>
+<kw name="Should Not Be Empty" library="BuiltIn">
+<arg>id:neo-vnode-42</arg>
+<doc>Verifies that the given item is not empty.</doc>
+<msg timestamp="20230406 14:00:37.053" level="INFO">Length is 15</msg>
+<status status="PASS" starttime="20230406 14:00:37.052" endtime="20230406 14:00:37.053"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Close Window</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<kw name="Close Window" library="SeleniumLibrary">
+<doc>Closes currently opened and selected browser window/tab.</doc>
+<status status="PASS" starttime="20230406 14:00:37.054" endtime="20230406 14:00:37.889"/>
+</kw>
+<status status="PASS" starttime="20230406 14:00:37.053" endtime="20230406 14:00:37.890"/>
+</kw>
+<status status="PASS" starttime="20230406 14:00:30.939" endtime="20230406 14:00:37.890"/>
+</test>
+<test id="s1-t18" name="Adding_comment_unlog" line="154">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url2}</arg>
+<arg>${browser3}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 14:00:37.891" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/dist/development/apps/realworld/index.html'.</msg>
+<msg timestamp="20230406 14:00:37.894" level="INFO">Firefox driver log is always forced to to: E:\PythonProjects\Nowy folder\log\geckodriver-18.log</msg>
+<status status="PASS" starttime="20230406 14:00:37.891" endtime="20230406 14:00:43.642"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-20</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 14:00:43.642" endtime="20230406 14:00:44.071"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-136</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230406 14:00:44.072" level="INFO">Clicking element 'id:neo-vnode-136'.</msg>
+<msg timestamp="20230406 14:00:44.109" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-10.png"&gt;&lt;img src="selenium-screenshot-10.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230406 14:00:44.109" level="FAIL">Element with locator 'id:neo-vnode-136' not found.</msg>
+<status status="FAIL" starttime="20230406 14:00:44.072" endtime="20230406 14:00:44.110"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-247</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="NOT RUN" starttime="20230406 14:00:44.111" endtime="20230406 14:00:44.111"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>id:neo-component-16__input</arg>
+<arg>test_test</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<status status="NOT RUN" starttime="20230406 14:00:44.111" endtime="20230406 14:00:44.111"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-247</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230406 14:00:44.111" endtime="20230406 14:00:44.111"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Close Window</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="NOT RUN" starttime="20230406 14:00:44.112" endtime="20230406 14:00:44.112"/>
+</kw>
+<status status="FAIL" starttime="20230406 14:00:37.890" endtime="20230406 14:00:44.112">Element with locator 'id:neo-vnode-136' not found.</status>
+</test>
+<test id="s1-t19" name="Adding_empty_comment_unlog" line="164">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url2}</arg>
+<arg>${browser3}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 14:00:44.113" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/dist/development/apps/realworld/index.html'.</msg>
+<msg timestamp="20230406 14:00:44.116" level="INFO">Firefox driver log is always forced to to: E:\PythonProjects\Nowy folder\log\geckodriver-19.log</msg>
+<status status="PASS" starttime="20230406 14:00:44.113" endtime="20230406 14:00:50.591"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-20</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 14:00:50.592" endtime="20230406 14:00:51.020"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-136</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230406 14:00:51.021" level="INFO">Clicking element 'id:neo-vnode-136'.</msg>
+<msg timestamp="20230406 14:00:51.059" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-11.png"&gt;&lt;img src="selenium-screenshot-11.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230406 14:00:51.060" level="FAIL">Element with locator 'id:neo-vnode-136' not found.</msg>
+<status status="FAIL" starttime="20230406 14:00:51.020" endtime="20230406 14:00:51.061"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-247</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="NOT RUN" starttime="20230406 14:00:51.061" endtime="20230406 14:00:51.061"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-247</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230406 14:00:51.061" endtime="20230406 14:00:51.062"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Close Window</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="NOT RUN" starttime="20230406 14:00:51.062" endtime="20230406 14:00:51.062"/>
+</kw>
+<status status="FAIL" starttime="20230406 14:00:44.112" endtime="20230406 14:00:51.062">Element with locator 'id:neo-vnode-136' not found.</status>
+</test>
+<test id="s1-t20" name="Log_in" line="173">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url2}</arg>
+<arg>${browser3}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 14:00:51.064" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/dist/development/apps/realworld/index.html'.</msg>
+<msg timestamp="20230406 14:00:51.067" level="INFO">Firefox driver log is always forced to to: E:\PythonProjects\Nowy folder\log\geckodriver-20.log</msg>
+<status status="PASS" starttime="20230406 14:00:51.063" endtime="20230406 14:00:57.692"/>
+</kw>
+<kw name="SignInGen" library="keywords">
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-6</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 14:00:57.693" endtime="20230406 14:00:58.106"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-6</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230406 14:00:58.107" level="INFO">Clicking element 'id:neo-vnode-6'.</msg>
+<status status="PASS" starttime="20230406 14:00:58.106" endtime="20230406 14:00:58.178"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>name:email</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 14:00:58.179" endtime="20230406 14:00:58.389"/>
+</kw>
+<kw name="Name Gen" library="data_generator">
+<var>${random_username}</var>
+<msg timestamp="20230406 14:00:58.390" level="INFO">${random_username} = zqgfmzuwnwxhzciykpcc</msg>
+<status status="PASS" starttime="20230406 14:00:58.389" endtime="20230406 14:00:58.390"/>
+</kw>
+<kw name="Email Gen" library="data_generator">
+<var>${random_email}</var>
+<msg timestamp="20230406 14:00:58.390" level="INFO">${random_email} = vckx524m90yr@htxjhjfpga.szhna</msg>
+<status status="PASS" starttime="20230406 14:00:58.390" endtime="20230406 14:00:58.390"/>
+</kw>
+<kw name="Password Gen" library="data_generator">
+<var>${random_password}</var>
+<msg timestamp="20230406 14:00:58.391" level="INFO">${random_password} = 2fynjks23mvkf7yx9d</msg>
+<status status="PASS" starttime="20230406 14:00:58.390" endtime="20230406 14:00:58.391"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:username</arg>
+<arg>${random_username}</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230406 14:00:58.392" level="INFO">Sending key(s) ('zqgfmzuwnwxhzciykpcc',) to name:username element.</msg>
+<msg timestamp="20230406 14:00:58.701" level="INFO">Sending keys zqgfmzuwnwxhzciykpcc</msg>
+<status status="PASS" starttime="20230406 14:00:58.391" endtime="20230406 14:00:58.763"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:email</arg>
+<arg>${random_email}</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230406 14:00:58.764" level="INFO">Sending key(s) ('vckx524m90yr@htxjhjfpga.szhna',) to name:email element.</msg>
+<msg timestamp="20230406 14:00:59.056" level="INFO">Sending keys vckx524m90yr@htxjhjfpga.szhna</msg>
+<status status="PASS" starttime="20230406 14:00:58.764" endtime="20230406 14:00:59.105"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:password</arg>
+<arg>${random_password}</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230406 14:00:59.106" level="INFO">Sending key(s) ('2fynjks23mvkf7yx9d',) to name:password element.</msg>
+<msg timestamp="20230406 14:00:59.397" level="INFO">Sending keys 2fynjks23mvkf7yx9d</msg>
+<status status="PASS" starttime="20230406 14:00:59.106" endtime="20230406 14:00:59.432"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>class:btn-primary</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20230406 14:00:59.433" level="INFO">Clicking button 'class:btn-primary'.</msg>
+<status status="PASS" starttime="20230406 14:00:59.432" endtime="20230406 14:00:59.670"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230406 14:01:01.671" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230406 14:00:59.670" endtime="20230406 14:01:01.671"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${check_name}</var>
+<arg>id:neo-vnode-47</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20230406 14:01:01.700" level="INFO">${check_name} =  zqgfmzuwnwxhzciykpcc</msg>
+<status status="PASS" starttime="20230406 14:01:01.671" endtime="20230406 14:01:01.700"/>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<arg>${check_name.strip()}</arg>
+<arg>${random_username.strip()}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" starttime="20230406 14:01:01.700" endtime="20230406 14:01:01.702"/>
+</kw>
+<status status="PASS" starttime="20230406 14:00:57.692" endtime="20230406 14:01:01.702"/>
+</kw>
+<status status="PASS" starttime="20230406 14:00:51.063" endtime="20230406 14:01:01.702"/>
+</test>
+<test id="s1-t21" name="Adding_favPost_log_list" line="178">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url2}</arg>
+<arg>${browser3}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 14:01:01.704" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/dist/development/apps/realworld/index.html'.</msg>
+<msg timestamp="20230406 14:01:01.707" level="INFO">Firefox driver log is always forced to to: E:\PythonProjects\Nowy folder\log\geckodriver-21.log</msg>
+<status status="PASS" starttime="20230406 14:01:01.703" endtime="20230406 14:01:07.888"/>
+</kw>
+<kw name="SignInGen" library="keywords">
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-6</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 14:01:07.889" endtime="20230406 14:01:08.324"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-6</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230406 14:01:08.325" level="INFO">Clicking element 'id:neo-vnode-6'.</msg>
+<status status="PASS" starttime="20230406 14:01:08.324" endtime="20230406 14:01:08.365"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>name:email</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 14:01:08.365" endtime="20230406 14:01:08.783"/>
+</kw>
+<kw name="Name Gen" library="data_generator">
+<var>${random_username}</var>
+<msg timestamp="20230406 14:01:08.784" level="INFO">${random_username} = eydygsdzddtznjywuhpx</msg>
+<status status="PASS" starttime="20230406 14:01:08.783" endtime="20230406 14:01:08.784"/>
+</kw>
+<kw name="Email Gen" library="data_generator">
+<var>${random_email}</var>
+<msg timestamp="20230406 14:01:08.784" level="INFO">${random_email} = e6dcro6lroe6@nexfetrhcv.klrsj</msg>
+<status status="PASS" starttime="20230406 14:01:08.784" endtime="20230406 14:01:08.784"/>
+</kw>
+<kw name="Password Gen" library="data_generator">
+<var>${random_password}</var>
+<msg timestamp="20230406 14:01:08.784" level="INFO">${random_password} = 0kiyldtnmdnxa5qdww</msg>
+<status status="PASS" starttime="20230406 14:01:08.784" endtime="20230406 14:01:08.785"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:username</arg>
+<arg>${random_username}</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230406 14:01:08.786" level="INFO">Sending key(s) ('eydygsdzddtznjywuhpx',) to name:username element.</msg>
+<msg timestamp="20230406 14:01:09.093" level="INFO">Sending keys eydygsdzddtznjywuhpx</msg>
+<status status="PASS" starttime="20230406 14:01:08.785" endtime="20230406 14:01:09.150"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:email</arg>
+<arg>${random_email}</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230406 14:01:09.152" level="INFO">Sending key(s) ('e6dcro6lroe6@nexfetrhcv.klrsj',) to name:email element.</msg>
+<msg timestamp="20230406 14:01:09.444" level="INFO">Sending keys e6dcro6lroe6@nexfetrhcv.klrsj</msg>
+<status status="PASS" starttime="20230406 14:01:09.150" endtime="20230406 14:01:09.493"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:password</arg>
+<arg>${random_password}</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230406 14:01:09.494" level="INFO">Sending key(s) ('0kiyldtnmdnxa5qdww',) to name:password element.</msg>
+<msg timestamp="20230406 14:01:09.785" level="INFO">Sending keys 0kiyldtnmdnxa5qdww</msg>
+<status status="PASS" starttime="20230406 14:01:09.493" endtime="20230406 14:01:09.817"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>class:btn-primary</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20230406 14:01:09.818" level="INFO">Clicking button 'class:btn-primary'.</msg>
+<status status="PASS" starttime="20230406 14:01:09.818" endtime="20230406 14:01:10.057"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230406 14:01:12.058" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230406 14:01:10.057" endtime="20230406 14:01:12.058"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${check_name}</var>
+<arg>id:neo-vnode-47</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20230406 14:01:12.102" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-12.png"&gt;&lt;img src="selenium-screenshot-12.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230406 14:01:12.102" level="FAIL">Element with locator 'id:neo-vnode-47' not found.</msg>
+<status status="FAIL" starttime="20230406 14:01:12.059" endtime="20230406 14:01:12.103"/>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<arg>${check_name.strip()}</arg>
+<arg>${random_username.strip()}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="NOT RUN" starttime="20230406 14:01:12.104" endtime="20230406 14:01:12.104"/>
+</kw>
+<status status="FAIL" starttime="20230406 14:01:07.888" endtime="20230406 14:01:12.104"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-167</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230406 14:01:12.104" endtime="20230406 14:01:12.104"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>class:user-pic</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230406 14:01:12.104" endtime="20230406 14:01:12.105"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-293</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230406 14:01:12.105" endtime="20230406 14:01:12.105"/>
+</kw>
+<kw name="Should Not Be Empty" library="BuiltIn">
+<arg>id:neo-vnode-293</arg>
+<doc>Verifies that the given item is not empty.</doc>
+<status status="NOT RUN" starttime="20230406 14:01:12.105" endtime="20230406 14:01:12.105"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Close Window</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="NOT RUN" starttime="20230406 14:01:12.105" endtime="20230406 14:01:12.105"/>
+</kw>
+<status status="FAIL" starttime="20230406 14:01:01.703" endtime="20230406 14:01:12.106">Element with locator 'id:neo-vnode-47' not found.</status>
+</test>
+<test id="s1-t22" name="Adding_favPost_log" line="189">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url2}</arg>
+<arg>${browser3}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 14:01:12.107" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/dist/development/apps/realworld/index.html'.</msg>
+<msg timestamp="20230406 14:01:12.110" level="INFO">Firefox driver log is always forced to to: E:\PythonProjects\Nowy folder\log\geckodriver-22.log</msg>
+<status status="PASS" starttime="20230406 14:01:12.106" endtime="20230406 14:01:18.319"/>
+</kw>
+<kw name="SignInGen" library="keywords">
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-6</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 14:01:18.321" endtime="20230406 14:01:18.763"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-6</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230406 14:01:18.764" level="INFO">Clicking element 'id:neo-vnode-6'.</msg>
+<status status="PASS" starttime="20230406 14:01:18.763" endtime="20230406 14:01:18.810"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>name:email</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 14:01:18.811" endtime="20230406 14:01:19.022"/>
+</kw>
+<kw name="Name Gen" library="data_generator">
+<var>${random_username}</var>
+<msg timestamp="20230406 14:01:19.023" level="INFO">${random_username} = qmlmoreympzgyzzeemkp</msg>
+<status status="PASS" starttime="20230406 14:01:19.023" endtime="20230406 14:01:19.023"/>
+</kw>
+<kw name="Email Gen" library="data_generator">
+<var>${random_email}</var>
+<msg timestamp="20230406 14:01:19.024" level="INFO">${random_email} = pxkoqibpgd5g@dbpxenmtxn.hdbjk</msg>
+<status status="PASS" starttime="20230406 14:01:19.023" endtime="20230406 14:01:19.024"/>
+</kw>
+<kw name="Password Gen" library="data_generator">
+<var>${random_password}</var>
+<msg timestamp="20230406 14:01:19.025" level="INFO">${random_password} = x374a59mx90egl1o7s</msg>
+<status status="PASS" starttime="20230406 14:01:19.024" endtime="20230406 14:01:19.025"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:username</arg>
+<arg>${random_username}</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230406 14:01:19.026" level="INFO">Sending key(s) ('qmlmoreympzgyzzeemkp',) to name:username element.</msg>
+<msg timestamp="20230406 14:01:19.317" level="INFO">Sending keys qmlmoreympzgyzzeemkp</msg>
+<status status="PASS" starttime="20230406 14:01:19.025" endtime="20230406 14:01:19.360"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:email</arg>
+<arg>${random_email}</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230406 14:01:19.361" level="INFO">Sending key(s) ('pxkoqibpgd5g@dbpxenmtxn.hdbjk',) to name:email element.</msg>
+<msg timestamp="20230406 14:01:19.643" level="INFO">Sending keys pxkoqibpgd5g@dbpxenmtxn.hdbjk</msg>
+<status status="PASS" starttime="20230406 14:01:19.360" endtime="20230406 14:01:19.693"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:password</arg>
+<arg>${random_password}</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230406 14:01:19.694" level="INFO">Sending key(s) ('x374a59mx90egl1o7s',) to name:password element.</msg>
+<msg timestamp="20230406 14:01:19.980" level="INFO">Sending keys x374a59mx90egl1o7s</msg>
+<status status="PASS" starttime="20230406 14:01:19.693" endtime="20230406 14:01:20.010"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>class:btn-primary</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20230406 14:01:20.011" level="INFO">Clicking button 'class:btn-primary'.</msg>
+<status status="PASS" starttime="20230406 14:01:20.010" endtime="20230406 14:01:20.237"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230406 14:01:22.238" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230406 14:01:20.237" endtime="20230406 14:01:22.238"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${check_name}</var>
+<arg>id:neo-vnode-47</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20230406 14:01:22.275" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-13.png"&gt;&lt;img src="selenium-screenshot-13.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230406 14:01:22.276" level="FAIL">Element with locator 'id:neo-vnode-47' not found.</msg>
+<status status="FAIL" starttime="20230406 14:01:22.238" endtime="20230406 14:01:22.277"/>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<arg>${check_name.strip()}</arg>
+<arg>${random_username.strip()}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="NOT RUN" starttime="20230406 14:01:22.277" endtime="20230406 14:01:22.277"/>
+</kw>
+<status status="FAIL" starttime="20230406 14:01:18.320" endtime="20230406 14:01:22.277"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-186</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230406 14:01:22.278" endtime="20230406 14:01:22.278"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-264</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230406 14:01:22.278" endtime="20230406 14:01:22.278"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>class:user-pic</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230406 14:01:22.278" endtime="20230406 14:01:22.278"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-293</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230406 14:01:22.279" endtime="20230406 14:01:22.279"/>
+</kw>
+<kw name="Should Not Be Empty" library="BuiltIn">
+<arg>id:neo-vnode-293</arg>
+<doc>Verifies that the given item is not empty.</doc>
+<status status="NOT RUN" starttime="20230406 14:01:22.279" endtime="20230406 14:01:22.279"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Close Window</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="NOT RUN" starttime="20230406 14:01:22.279" endtime="20230406 14:01:22.279"/>
+</kw>
+<status status="FAIL" starttime="20230406 14:01:12.106" endtime="20230406 14:01:22.279">Element with locator 'id:neo-vnode-47' not found.</status>
+</test>
+<test id="s1-t23" name="Write_art" line="201">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url2}</arg>
+<arg>${browser3}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 14:01:22.281" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8080/dist/development/apps/realworld/index.html'.</msg>
+<msg timestamp="20230406 14:01:22.285" level="INFO">Firefox driver log is always forced to to: E:\PythonProjects\Nowy folder\log\geckodriver-23.log</msg>
+<status status="PASS" starttime="20230406 14:01:22.281" endtime="20230406 14:01:28.491"/>
+</kw>
+<kw name="SignInGen" library="keywords">
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-6</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 14:01:28.492" endtime="20230406 14:01:28.922"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-6</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230406 14:01:28.922" level="INFO">Clicking element 'id:neo-vnode-6'.</msg>
+<status status="PASS" starttime="20230406 14:01:28.922" endtime="20230406 14:01:28.960"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>name:email</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230406 14:01:28.961" endtime="20230406 14:01:29.170"/>
+</kw>
+<kw name="Name Gen" library="data_generator">
+<var>${random_username}</var>
+<msg timestamp="20230406 14:01:29.171" level="INFO">${random_username} = dudgqpccvcdutsmbvblx</msg>
+<status status="PASS" starttime="20230406 14:01:29.170" endtime="20230406 14:01:29.171"/>
+</kw>
+<kw name="Email Gen" library="data_generator">
+<var>${random_email}</var>
+<msg timestamp="20230406 14:01:29.171" level="INFO">${random_email} = zrmhfh1lirou@mrcjyqrbtn.mrhwb</msg>
+<status status="PASS" starttime="20230406 14:01:29.171" endtime="20230406 14:01:29.171"/>
+</kw>
+<kw name="Password Gen" library="data_generator">
+<var>${random_password}</var>
+<msg timestamp="20230406 14:01:29.172" level="INFO">${random_password} = t8adcl5rs69bf0xs4t</msg>
+<status status="PASS" starttime="20230406 14:01:29.171" endtime="20230406 14:01:29.172"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:username</arg>
+<arg>${random_username}</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230406 14:01:29.173" level="INFO">Sending key(s) ('dudgqpccvcdutsmbvblx',) to name:username element.</msg>
+<msg timestamp="20230406 14:01:29.463" level="INFO">Sending keys dudgqpccvcdutsmbvblx</msg>
+<status status="PASS" starttime="20230406 14:01:29.172" endtime="20230406 14:01:29.513"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:email</arg>
+<arg>${random_email}</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230406 14:01:29.514" level="INFO">Sending key(s) ('zrmhfh1lirou@mrcjyqrbtn.mrhwb',) to name:email element.</msg>
+<msg timestamp="20230406 14:01:29.805" level="INFO">Sending keys zrmhfh1lirou@mrcjyqrbtn.mrhwb</msg>
+<status status="PASS" starttime="20230406 14:01:29.513" endtime="20230406 14:01:29.876"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:password</arg>
+<arg>${random_password}</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<msg timestamp="20230406 14:01:29.877" level="INFO">Sending key(s) ('t8adcl5rs69bf0xs4t',) to name:password element.</msg>
+<msg timestamp="20230406 14:01:30.161" level="INFO">Sending keys t8adcl5rs69bf0xs4t</msg>
+<status status="PASS" starttime="20230406 14:01:29.876" endtime="20230406 14:01:30.191"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>class:btn-primary</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20230406 14:01:30.192" level="INFO">Clicking button 'class:btn-primary'.</msg>
+<status status="PASS" starttime="20230406 14:01:30.191" endtime="20230406 14:01:30.432"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230406 14:01:32.433" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230406 14:01:30.432" endtime="20230406 14:01:32.433"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${check_name}</var>
+<arg>id:neo-vnode-47</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20230406 14:01:32.456" level="INFO">${check_name} =  dudgqpccvcdutsmbvblx</msg>
+<status status="PASS" starttime="20230406 14:01:32.433" endtime="20230406 14:01:32.456"/>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<arg>${check_name.strip()}</arg>
+<arg>${random_username.strip()}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" starttime="20230406 14:01:32.456" endtime="20230406 14:01:32.458"/>
+</kw>
+<status status="PASS" starttime="20230406 14:01:28.492" endtime="20230406 14:01:32.458"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-230</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230406 14:01:32.459" level="INFO">Clicking element 'id:neo-vnode-230'.</msg>
+<msg timestamp="20230406 14:01:32.524" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-14.png"&gt;&lt;img src="selenium-screenshot-14.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230406 14:01:32.525" level="FAIL">ElementNotInteractableException: Message: Element &lt;li id="neo-vnode-230" class="page-item"&gt; could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:290:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:150:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:119:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:208:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:97:31
+</msg>
+<status status="FAIL" starttime="20230406 14:01:32.458" endtime="20230406 14:01:32.550"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:title</arg>
+<arg>TestTitle</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<status status="NOT RUN" starttime="20230406 14:01:32.550" endtime="20230406 14:01:32.550"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:description</arg>
+<arg>TestDescription</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<status status="NOT RUN" starttime="20230406 14:01:32.550" endtime="20230406 14:01:32.551"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:body</arg>
+<arg>TestBody</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<status status="NOT RUN" starttime="20230406 14:01:32.551" endtime="20230406 14:01:32.551"/>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<arg>name:tags</arg>
+<arg>TestTag</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<status status="NOT RUN" starttime="20230406 14:01:32.552" endtime="20230406 14:01:32.552"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-352</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230406 14:01:32.552" endtime="20230406 14:01:32.552"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>class:user-pic</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230406 14:01:32.552" endtime="20230406 14:01:32.552"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:neo-vnode-291</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230406 14:01:32.552" endtime="20230406 14:01:32.553"/>
+</kw>
+<kw name="Should Not Be Empty" library="BuiltIn">
+<arg>id:neo-vnode-291</arg>
+<doc>Verifies that the given item is not empty.</doc>
+<status status="NOT RUN" starttime="20230406 14:01:32.553" endtime="20230406 14:01:32.553"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<arg>Close Window</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="NOT RUN" starttime="20230406 14:01:32.553" endtime="20230406 14:01:32.553"/>
+</kw>
+<status status="FAIL" starttime="20230406 14:01:22.280" endtime="20230406 14:01:32.553">ElementNotInteractableException: Message: Element &lt;li id="neo-vnode-230" class="page-item"&gt; could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:290:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:150:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:119:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:208:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:97:31
+</status>
+</test>
+<status status="FAIL" starttime="20230406 13:58:01.717" endtime="20230406 14:01:32.555"/>
+</suite>
+<statistics>
+<total>
+<stat pass="9" fail="14" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="9" fail="14" skip="0" id="s1" name="firefoxDev">firefoxDev</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230406 13:58:02.289" level="ERROR">Error in file 'E:\PythonProjects\Nowy folder\robot\commons\keywords.robot' on line 4: Library 'commons\data_generator.py' does not exist.</msg>
+</errors>
+</robot>

@@ -1,0 +1,13 @@
+1680782383708	geckodriver	INFO	Listening on 127.0.0.1:64999
+1680782386778	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65000" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Robert\\AppData\\Local\\Temp\\rust_mozprofile1WXn8i"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680782387507	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680782387513	Marionette	INFO	Listening on port 65012
+Read port: 65012
+WebDriver BiDi listening on ws://127.0.0.1:65000
+1680782387784	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Robert\\AppData\\Local\\Temp\\rust_mozprofile1WXn8i\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65000/devtools/browser/d5149a7f-1a84-40f9-9827-f55fd4ff99fe
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2019))

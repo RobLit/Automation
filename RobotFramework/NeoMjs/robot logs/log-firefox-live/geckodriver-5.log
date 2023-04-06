@@ -1,0 +1,13 @@
+1680783630007	geckodriver	INFO	Listening on 127.0.0.1:55256
+1680783633064	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55257" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Robert\\AppData\\Local\\Temp\\rust_mozprofilerRiaEH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680783634206	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680783634211	Marionette	INFO	Listening on port 55273
+Read port: 55273
+WebDriver BiDi listening on ws://127.0.0.1:55257
+1680783634391	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Robert\\AppData\\Local\\Temp\\rust_mozprofilerRiaEH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55257/devtools/browser/e0f262ae-79ef-4d31-aa39-3caccd39798b
+JavaScript warning: http://localhost:8080/node_modules/siesta-lite/siesta-all.js, line 48839: unreachable code after return statement

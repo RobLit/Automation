@@ -1,0 +1,14 @@
+1680782364793	geckodriver	INFO	Listening on 127.0.0.1:64909
+1680782367149	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64910" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Robert\\AppData\\Local\\Temp\\rust_mozprofile2iyG25"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680782368035	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680782368041	Marionette	INFO	Listening on port 64917
+Read port: 64917
+WebDriver BiDi listening on ws://127.0.0.1:64910
+1680782368266	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Robert\\AppData\\Local\\Temp\\rust_mozprofile2iyG25\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64910/devtools/browser/3e296292-91d6-41ca-a583-120ad62a8c19
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 468))
+JavaScript error: http://localhost:8080/dist/development/main.js, line 3868: TypeError: parentNode is null

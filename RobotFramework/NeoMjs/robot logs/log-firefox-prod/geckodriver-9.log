@@ -1,0 +1,13 @@
+1680784228010	geckodriver	INFO	Listening on 127.0.0.1:56491
+1680784231072	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56492" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Robert\\AppData\\Local\\Temp\\rust_mozprofilerbV5eO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680784231425	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680784231430	Marionette	INFO	Listening on port 56499
+Read port: 56499
+WebDriver BiDi listening on ws://127.0.0.1:56492
+1680784231607	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Robert\\AppData\\Local\\Temp\\rust_mozprofilerbV5eO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56492/devtools/browser/416e10c5-38c0-47a5-9d88-af68d2d98c86
+JavaScript error: http://localhost:8080/dist/production/main.js, line 1: TypeError: n is null
